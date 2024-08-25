@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>html form</title>
 </head>
 <body>
-    
+    <h1>Form tutorial</h1>
+    <fieldset>
+        <legend>Personal info</legend>
+    <form action="" target="_blank">
+        <label for="first_name">First Name</label>
+        <br>
+        <input type="text" name="first_name" id="first_name" placeholder="Vivek" required>
+        <br>
+        <label for="last_name">Last Name</label>
+        <br>
+        <input type="text" name="last_name" id="last_name" placeholder="goswami">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email">
+        <br>
+        <label for="number">Number</label>
+        <br>
+        <input type="number" id="number">
+        </fieldset>
+        <h4>select your response</h4>
+        <br>
+        <label for="">No</label>
+        <input type="radio" name="res">
+        <label for="">Yes</label>
+        <input type="radio" name="res">
+        <br>
+       
+        <div>
+        <p>Which vehicle you have</p>
+        <input type="checkbox" name="vehicle" id="vehicle1" value="Bike">
+        <label for="vehicle1">Bike</label>
+        <br>
+        <input type="checkbox" name="vehicle" id="vehicle2" value="Car">
+        <label for="vehicle2">Car</label>
+        <br>
+        <input type="checkbox" name="vehicle" id="vehicle3" value="Truck">
+        <label for="vehicle3">Truck</label>
+        </div>
+        <div> 
+            <select name="Cars" id="Cars" multiple>
+                <option value="BMW">BMW</option>
+                <option value="Honda">Honda</option>
+                <option value="Maruti suzuki">Maruti suzuki</option>
+                <option value="Jackwar" selected>Jackwar</option>
+            </select>
+            <br>
+            <textarea rows="10" cols="30"></textarea>
+            <input type="date">
+            <br>
+            <button>Pres Me</button>
+            <br>
+           <input type="reset">
+          <button type="submit">submit</button>
+        </div>
+    </form>
 </body>
 </html>
